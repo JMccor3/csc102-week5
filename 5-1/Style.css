@@ -1,0 +1,31 @@
+body {
+   background-color: rgb(0, 72, 255);
+   color: whitesmoke;
+}
+
+nav {
+   height: 200px;
+   width: 200px;
+   float: left;
+   padding: 5px;
+   line-height: 30px;
+}
+
+footer {
+   text-align: center;
+   margin-right: 200px;
+}
+
+#memeImage {
+   text-align: center;
+   margin-right: 200px;
+}
+
+header {
+   text-align: center;
+}
+.paratext{
+ color: rgb(8, 242, 110);
+ font-size: x-large;
+ font-family: cursive;
+}

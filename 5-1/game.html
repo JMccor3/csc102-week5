@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <script src="gamecode.js"></script>
+    <link rel="stylesheet" href="stringsStyle.css">
+    <!-- linking my js to the html-->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome to my game.</title>
+    <!-- set the title of the page-->
+</head>
+
+<body>
+    <h1>Welcome to my games page.</h1>
+    <nav>
+        <h2>
+            Navigation
+        </h2>
+        <a href="./index.html">Home</a><br>
+        <a href="./boards.html">Boards</a><br>
+        <a href="./game.html">Game</a><br>
+        <a href="./strings.html">Strings</a><br>
+
+    </nav>
+    <h2>Pop a squat and let's play some craps!</h2><br>
+    <!--setting the mood-->
+    <p><img src="toilet.jpg"></p>
+    <!--picture to set the mood-->
+    <br>
+    <br>
+    Die 1 result: <div id=die1res> Press Plunger to start the game. </div><br>
+    <!-- die 1 line-->
+    Die 2 result: <div id=die2res> Press Plunger to start the game. </div><br>
+    <!-- die 2 line-->
+    Total Result: <div id=sumres> Press Plunger to start the game. </div><br>
+    <!-- adds both rolls-->
+    Game Result: <div id=gameres> Press Plunger to start the game. </div><br>
+    <!-- shows if you won or lost-->
+
+    <button onclick="playcraps()">Plunger</button><br>
+    <!-- setup the button to play.-->
+
+    <br>
+    <br>
+    <footer>University of Advancing Technology<br>
+        2625 W Baseline Rd Tempe,AZ 85283
+        <br>
+        602-383-8228 <br>
+    </footer>
+</body>
+
+</html>

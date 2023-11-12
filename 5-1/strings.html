@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<!--This is for week 3 of CSC102
+    we are making a string input validation and checker of palindromes
+James McCormick
+23 Oct 2023 
+
+30Oct2023
+setting up page to play audio clip of space-->
+
+<head>
+    <script src="stringcode.js"></script>
+    <link rel="stylesheet" href="stringsStyle.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>input validation</title>
+</head>
+
+<body>
+    <header>
+        <h1>Welcome to my strings.html page</h1>
+    </header>
+    <nav>
+        <h2>
+            Navigation
+        </h2>
+        <a href="./index.html">Home</a><br>
+        <a href="./boards.html">Boards</a><br>
+        <a href="./game.html">Game</a><br>
+        <a href="./strings.html">Strings</a><br>
+
+
+
+    </nav>
+    <h2> Input validation section</h2>
+    <div id="loginStatus"> Press Submit to login</div>
+    <p> Please submit the following data for validation</p>
+    <form id="creditsubmit" onsubmit="return false">
+        First Name: <input type="text" id="Fname"><br>
+        Last Name: <input type="text" id="Lname"><br>
+        Zip Code: <input type="text" id="Zipcode"><br>
+        <br>
+        <input type="Submit" onclick="checkCreds()" ;>
+    </form>
+    <br>
+    <br>
+    <h2>Palindrome checker</h2>
+    <br>
+    <div id="palinStatus"> Palindrome Status</div>
+    <br>
+    <form id="palinSubmit" onsubmit="return false">
+        Enter possible Palindrome: <input type="text" id="palinInput"><br>
+        <br>
+        <input type="Submit" onclick="checkPalin();">
+    </form>
+    <br>
+    <br>
+    <br>
+    <!-- section to play audio-->
+    <h2> Play Audio</h2>
+    <button onclick="playstation();">Press to hear sounds from space</button>
+    <br>
+    <br>
+    <button class = "lrgbutton" onclick="playbox();">Press to hear musicbox</button>
+<Br>
+    <br>
+    <br>
+
+    <footer>University of Advancing Technology<br>
+        2625 W Baseline Rd Tempe,AZ 85283
+        <br>
+        602-383-8228 <br>
+    </footer>
+</body>
+
+</html>
